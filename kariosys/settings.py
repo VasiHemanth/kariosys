@@ -55,7 +55,8 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",  # Add the URL of your Next.js app
-    "http://localhost:5173"
+    "http://localhost:5173",
+    "https://job-assistance.vercel.app"
 ]
 
 # Allow cookies to be included with requests
